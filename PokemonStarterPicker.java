@@ -17,7 +17,7 @@ public class PokemonStarterPicker {
                 && !Region.equalsIgnoreCase("Sinnoh") && !Region.equalsIgnoreCase("Unova") && !Region.equalsIgnoreCase("Kalos")
                 && !Region.equalsIgnoreCase("Alola")) {
 
-            System.out.println("\nPlease enter a valid region.");
+            System.out.println("\nPlease enter a valid region. ie(Kanto, Johto, Hoenn, Sinnoh, Unova, Kalos, Alola)");
             Region = myscanner.nextLine();
 
         }
@@ -40,7 +40,7 @@ public class PokemonStarterPicker {
                     && !Region.equalsIgnoreCase("Sinnoh") && !Region.equalsIgnoreCase("Unova") && !Region.equalsIgnoreCase("Kalos")
                     && !Region.equalsIgnoreCase("Alola")&& !Region.equalsIgnoreCase("xxx")) {
 
-                System.out.println("\nPlease enter a valid region or Type XXX to quit.");
+                System.out.println("\nPlease enter a valid region ie(Kanto, Johto, Hoenn, Sinnoh, Unova, Kalos, Alola) or Type XXX to quit.");
                 Region = myscanner.nextLine();
                 if (Region.equalsIgnoreCase("xxx")) {
                     Over = true;
